@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/datarest_demo
+    username: datarest
+    password: datarest123
+  jackson:
+    property-naming-strategy: SNAKE_CASE
